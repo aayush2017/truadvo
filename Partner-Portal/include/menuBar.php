@@ -6,7 +6,7 @@
 			<a href="PartnerTasks.php" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerTasks.php") { echo 'class="active"';} ?> >Tasks</a>
 			<a href="PartnerClient.php" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerClient.php") { echo 'class="active"';} ?> >Clients</a>
 			<a href="PartnerQuery.php" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerQuery.php" || basename($_SERVER["PHP_SELF"])=="PartnerQueryAnswered.php"|| basename($_SERVER["PHP_SELF"])=="PartnerQueryOpenForm.php") { echo 'class="active"';} ?> >Queries</a>
-			<a href="" <?php if(basename($_SERVER["PHP_SELF"])=="#.php") { echo 'class="active"';} ?> >Team</a>
+			<a href="PartnerTeam.php" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerTeam.php" || basename($_SERVER["PHP_SELF"])=="PartnerTeam.php"|| basename($_SERVER["PHP_SELF"])=="PartnerTeam.php") { echo 'class="active"';} ?> >Team</a>
 		</nav>
 		<div class="notAlertLog flt-right">
 			<div class="flt-left noticon">

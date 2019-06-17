@@ -21,6 +21,17 @@
 <br/><br/>
 <div class="truadvo-client-list">
 	<div class="mltr">
+		<div class="folderView activeColor">
+			<i class="fas fa-folder"></i>
+			<div class="folderView-text">
+				<span class="label">CLIENT</span>
+				<span class="label-content">Disha Gupta</span>
+				<br/>
+				<br/>
+				<span class="label">Folder</span>
+				<span class="label-content">Litigation</span>
+			</div>
+		</div>
 		<div class="folderView">
 			<i class="fas fa-folder"></i>
 			<div class="folderView-text">
@@ -35,100 +46,34 @@
 		<div class="folderView">
 			<i class="fas fa-folder"></i>
 			<div class="folderView-text">
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
+				<span class="label">CLIENT</span>
+				<span class="label-content">Disha Gupta</span>
 				<br/>
 				<br/>
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
+				<span class="label">Folder</span>
+				<span class="label-content">Litigation</span>
 			</div>
 		</div>
 		<div class="folderView">
 			<i class="fas fa-folder"></i>
 			<div class="folderView-text">
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
+				<span class="label">CLIENT</span>
+				<span class="label-content">Disha Gupta</span>
 				<br/>
 				<br/>
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
+				<span class="label">Folder</span>
+				<span class="label-content">Litigation</span>
 			</div>
 		</div>
 		<div class="folderView">
 			<i class="fas fa-folder"></i>
 			<div class="folderView-text">
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
+				<span class="label">CLIENT</span>
+				<span class="label-content">Disha Gupta</span>
 				<br/>
 				<br/>
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-			</div>
-		</div>
-		<div class="folderView">
-			<i class="fas fa-folder"></i>
-			<div class="folderView-text">
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-				<br/>
-				<br/>
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-			</div>
-		</div>
-		<div class="folderView">
-			<i class="fas fa-folder"></i>
-			<div class="folderView-text">
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-				<br/>
-				<br/>
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-			</div>
-		</div>
-		<div class="folderView">
-			<i class="fas fa-folder"></i>
-			<div class="folderView-text">
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-				<br/>
-				<br/>
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-			</div>
-		</div>
-		<div class="folderView">
-			<i class="fas fa-folder"></i>
-			<div class="folderView-text">
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-				<br/>
-				<br/>
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-			</div>
-		</div>
-		<div class="folderView">
-			<i class="fas fa-folder"></i>
-			<div class="folderView-text">
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-				<br/>
-				<br/>
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-			</div>
-		</div>
-		<div class="folderView">
-			<i class="fas fa-folder"></i>
-			<div class="folderView-text">
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
-				<br/>
-				<br/>
-				<span class="label">&nbsp;</span>
-				<span class="label-content">&nbsp;</span>
+				<span class="label">Folder</span>
+				<span class="label-content">Litigation</span>
 			</div>
 		</div>
 	</div>	
