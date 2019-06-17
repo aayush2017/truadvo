@@ -1,0 +1,41 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+.prtbl { border-collapse: collapse;  margin: 0 auto;}
+.prtbl thead {}
+.prtbl thead th  { width: 175px; position: relative; height: 115px;}
+.prtbl thead th h3 { 
+	position: absolute; 
+	bottom: 0;
+	left: 45px;
+	font-family: qs-bold;
+	font-size: 16px;
+	color: #2048cb;
+}
+#pphead h2 {
+	color: #2048cb;
+	font-family: qs-bold;
+}
+#pphead p {
+	font-family: qs-light;
+}
+.prtbl thead th img { width: 105px; position: absolute; top: 0;left: 39px;}
+.prtbl tr td { text-align: center; padding-top: 2%;padding-bottom: 2%;padding-left: 1%;padding-right: 1%;}
+.prtbl tr { font-family: qs-regular; font-size: 14px; }
+.prtbl tr td:first-child { color: #2048cb; }
+.prtbl tr td img { width: 25px; }
+.prtbl tbody tr {
+  border-bottom: 1px solid transparent;
+}
+.prtbl tbody tr:last-child {
+  border-bottom: 1px solid #000;
+}
+#white-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	width: 100%;
+	height: 100%;
+}
+.odd { background-color: #f5f5f5; }
+.even { background-color: #fff; }
+.text-center { text-align: center; }
