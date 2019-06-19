@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/demo.galaxeepro.com/Truadvo
+    - export DEPLOYPATH=/home/galaxeep/public_html/demo.galaxeepro.com/Truadvo
     - /bin/cp * $DEPLOYPATH
