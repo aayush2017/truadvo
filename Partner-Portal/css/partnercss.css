@@ -747,3 +747,119 @@ nav { margin-left: 2%; width: 40%;margin-top: 10px;}
 }
 .partner-client-details-table a {text-decoration: none;width: 20px;display: inline-block;}
 .partner-client-details-table a i {}
+.right-content {
+
+}
+.right-content label {
+	
+	display: block;
+	clear: both;
+}
+.right-content .circle-num {
+
+	width: 21%;
+	text-align: center;
+	float: left;
+}
+.right-content .circle-num span {
+
+	width: 35%;
+	border-radius: 50%;
+	background-color: #69e781;
+	padding: 5%;
+	display: inline-block;
+	font-family: qs-bold;
+	font-size: 18px;
+}
+.right-content .circle-num p {
+	font-family: qs-regular;
+	font-size: 12px;
+}
+.progress-wizard {
+	
+	position: relative;
+}
+.circle-num {
+	position: relative;
+}
+.circle-num.activeProgree span { color: #989898; }
+.circle-num.activeProgree p { color: #989898; }
+.circle-num::after {
+	content: "";
+	position: absolute;
+	top: 16px;
+	left: 62px;
+	width: 61px;
+	height: 1px;
+	background-color: black;
+}
+.circle-num:last-child::after {
+	content: "";
+	width: 0;
+}
+.work {overflow: hidden;clear: both;padding-top: 2%;}
+.work span { display: block;margin-top: 3%; font-family: qs-light; font-size: 11px; }
+.work p {}
+.partner-panel {
+
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.ppname {
+	
+	float: left;
+}
+.ppname span {
+
+	font-size: 18px;
+	font-family: qs-medium;
+}
+.ppicon {
+
+	float: right;
+	margin-top: -10px;
+}
+.ppicon i.fa-check {
+	
+	width: 20px;
+	display: inline-block;
+	height: 20px;
+	background-color: #69e781;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 18px;
+}
+.ppicon i.fa-times {
+	
+	width: 20px;
+	display: inline-block;
+	height: 20px;
+	background-color: #fb5252;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	margin-left: 8px;
+	line-height: 18px;
+}
+.ppicon i.fa-sort-down {
+	
+	color: #2251d3;
+	font-size: 2em;
+	margin-left: 8px;
+}
+.partner-panel-content {
+
+}
+.largin-center {
+
+}
+.largin-center label {
+
+}
+.largin-center select {
+
+}
+.largin-center select option {
+	
+}

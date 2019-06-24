@@ -200,7 +200,52 @@
 					</div>
 				</div>
 				<div class="right-content">
-					<h1>Progress Bar</h1>
+					<div class="progress-wizard">
+						<label>STATUS</label>
+						<div class="circle-num activeProgree">
+							<span>1</span>
+							<p>Work Description</p>
+						</div>
+						<div class="circle-num">
+							<span>2</span>
+							<p>Work Description</p>
+						</div>
+						<div class="circle-num">
+							<span>3</span>
+							<p>Work Description</p>
+						</div>
+						<div class="circle-num">
+							<span>4</span>
+							<p>Work Description</p>
+						</div>
+					</div>
+					<div class="work">
+						<span class="flt-left">Work Required To Be Done</span> <button class="parTaskBtn flt-right">Request Invoice</button>
+						<div class="clr-fix"></div>
+						<div class="partner-panel">
+							<div class="ppname">
+								<span>Work Task 1</span>
+							</div>
+							<div class="ppicon">
+								<i class="fas fa-check"></i>
+								<i class="fas fa-times"></i>
+								<i class="fas fa-sort-down"></i>
+							</div>
+							<div class="partner-panel-content">
+								<div class="largin-center">
+									<label>Assigned To</label>
+									<select>
+										<option>Select team member</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="rc-up-down">
+						<div class="rc-up"><i class="fas fa-chevron-up"></i></div>
+						<div class="rc-down"><i class="fas fa-chevron-down"></i></div>
+					</div>
 				</div>
 			</div>	<!-- Detail Content - work End -->
 			<div class="details-content clr-fix" id="payment">
