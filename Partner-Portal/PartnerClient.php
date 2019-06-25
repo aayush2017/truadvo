@@ -164,6 +164,15 @@
 						<div class="rc-up"><i class="fas fa-chevron-up"></i></div>
 						<div class="rc-down"><i class="fas fa-chevron-down"></i></div>
 					</div>
+					<div class="lc-info" style="width: 50%;">
+						<label>Automatic Update</label>
+						<div class="switch">
+						<span>
+						<input type="checkbox" id="chsw1" name="pantheras">
+						<label for="chsw1">&nbsp;</label>
+						</span>
+						</div>
+					</div>
 				</div>
 			</div>	<!-- Detail Content end -->
 			<div class="details-content clr-fix" id="work">
@@ -242,8 +251,24 @@
 									</select>
 									<br/><br/>
 									<label class="text-upper">Alert Settings</label>
-									<div class="lc-info"><label>Automatic Update</label> <input type="radio" name=""></div>
-									<div class="lc-info"><label>Reminder</label> <input type="radio" name=""></div>
+									<div class="lc-info">
+										<label>Automatic Update</label>
+										<div class="switch">
+										<span>
+										<input type="checkbox" id="chsw1" name="pantheras">
+										<label for="chsw1">&nbsp;</label>
+										</span>
+										</div>
+									</div>
+									<div class="lc-info">
+										<label>Reminder</label> 
+										<div class="switch">
+										<span>
+										<input type="checkbox" id="chsw2" name="pantheras" checked>
+										<label for="chsw2">&nbsp;</label>
+										</span>
+										</div>
+									</div>
 									<div class="lc-info"><i class="fas fa-calendar-alt"> </i><i>&nbsp;&nbsp;&nbsp;10-07-2019</i> </div>
 									<div class="lc-info"><i class="fas fa-stopwatch">  </i><i>&nbsp;&nbsp;&nbsp;10:30 AM</i></div>
 								</div>
