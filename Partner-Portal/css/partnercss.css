@@ -872,9 +872,17 @@ nav { margin-left: 2%; width: 40%;margin-top: 10px;}
 	padding: 1%;
 	font-family: qs-medium;
 	font-size: 16px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: transparent url("../images/DropDown.png") no-repeat right center;
+	position: relative;
+	background-position-x: 195px;
+	width: 100%;
+	background-size: 20px;
 }
 .largin-center select option {
-	
+	background-color: #f5f5f5;
 }
 .lc-info {
 

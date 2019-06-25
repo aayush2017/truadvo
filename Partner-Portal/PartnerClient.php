@@ -238,6 +238,7 @@
 									<label class="text-upper">Assigned To</label>
 									<select>
 										<option>Select team member</option>
+										<option>Team A</option>
 									</select>
 									<br/><br/>
 									<label class="text-upper">Alert Settings</label>
