@@ -754,6 +754,8 @@ nav { margin-left: 2%; width: 40%;margin-top: 10px;}
 	
 	display: block;
 	clear: both;
+	font-family: qs-light;
+	font-size: 11px;
 }
 .right-content .circle-num {
 
@@ -799,11 +801,13 @@ nav { margin-left: 2%; width: 40%;margin-top: 10px;}
 }
 .work {overflow: hidden;clear: both;padding-top: 2%;}
 .work span { display: block;margin-top: 3%; font-family: qs-light; font-size: 11px; }
+.text-upper { text-transform: uppercase; }
 .work p {}
 .partner-panel {
 
 	background-color: #f5f5f5;
 	overflow: hidden;
+	padding: 2%;
 }
 .ppname {
 	
@@ -853,13 +857,47 @@ nav { margin-left: 2%; width: 40%;margin-top: 10px;}
 }
 .largin-center {
 
+	clear: both;
+	overflow: hidden;
+	width: 60%;
+	margin: 0 auto;
 }
 .largin-center label {
-
+	font-family: qs-light;
+	font-size: 10px;
 }
 .largin-center select {
-
+	background-color: #f5f5f5;
+	border: 1px solid transparent;
+	padding: 1%;
+	font-family: qs-medium;
+	font-size: 16px;
 }
 .largin-center select option {
 	
+}
+.lc-info {
+
+	overflow: hidden;
+	clear: both;
+	padding: 2% 0 2% 0;
+	width: 75%;
+}
+.lc-info label {
+	font-family: qs-medium;
+	font-size: 16px;
+	float: left;
+	width: 81%;
+}
+.lc-info i:first-child {
+	font-size: 10px;
+}
+.lc-info i:last-child {
+	font-family: qs-light;
+	font-size: 10px;
+	font-style: normal;
+}
+.lc-info input[type="radio"] {
+	
+	float: right;
 }

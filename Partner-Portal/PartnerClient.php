@@ -220,8 +220,9 @@
 						</div>
 					</div>
 					<div class="work">
-						<span class="flt-left">Work Required To Be Done</span> <button class="parTaskBtn flt-right">Request Invoice</button>
+						<span class="flt-left text-upper">Work Required To Be Done</span> <button class="parTaskBtn flt-right">Add Work</button>
 						<div class="clr-fix"></div>
+						<br/>
 						<div class="partner-panel">
 							<div class="ppname">
 								<span>Work Task 1</span>
@@ -233,10 +234,17 @@
 							</div>
 							<div class="partner-panel-content">
 								<div class="largin-center">
-									<label>Assigned To</label>
+									<br/>
+									<label class="text-upper">Assigned To</label>
 									<select>
 										<option>Select team member</option>
 									</select>
+									<br/><br/>
+									<label class="text-upper">Alert Settings</label>
+									<div class="lc-info"><label>Automatic Update</label> <input type="radio" name=""></div>
+									<div class="lc-info"><label>Reminder</label> <input type="radio" name=""></div>
+									<div class="lc-info"><i class="fas fa-calendar-alt"> </i><i>&nbsp;&nbsp;&nbsp;10-07-2019</i> </div>
+									<div class="lc-info"><i class="fas fa-stopwatch">  </i><i>&nbsp;&nbsp;&nbsp;10:30 AM</i></div>
 								</div>
 							</div>
 						</div>
