@@ -232,14 +232,16 @@
 						<span class="flt-left text-upper">Work Required To Be Done</span> <button class="parTaskBtn flt-right">Add Work</button>
 						<div class="clr-fix"></div>
 						<br/>
-						<div class="partner-panel">
-							<div class="ppname">
-								<span>Work Task 1</span>
-							</div>
-							<div class="ppicon">
-								<i class="fas fa-check"></i>
-								<i class="fas fa-times"></i>
-								<i class="fas fa-sort-down"></i>
+						<div class="partner-panel-main">
+							<div class="partner-panel">
+								<div class="ppname">
+									<span>Work Task 1</span>
+								</div>
+								<div class="ppicon">
+									<i class="fas fa-check"></i>
+									<i class="fas fa-times"></i>
+									<i class="fas fa-sort-down"></i>
+								</div>
 							</div>
 							<div class="partner-panel-content">
 								<div class="largin-center">
@@ -272,10 +274,9 @@
 									<div class="lc-info"><i class="fas fa-calendar-alt"> </i><i>&nbsp;&nbsp;&nbsp;10-07-2019</i> </div>
 									<div class="lc-info"><i class="fas fa-stopwatch">  </i><i>&nbsp;&nbsp;&nbsp;10:30 AM</i></div>
 								</div>
-							</div>
-						</div>
-
-					</div>
+							</div>	<!-- Panel content end here -->
+						</div>	<!-- Panel main end here -->
+					</div> <!-- work box end here -->
 					<div class="rc-up-down">
 						<div class="rc-up"><i class="fas fa-chevron-up"></i></div>
 						<div class="rc-down"><i class="fas fa-chevron-down"></i></div>
@@ -518,6 +519,17 @@ $(document).ready(function() {
 
 		$(".pcd-tab-button button:nth-child(5)").addClass("activeBtn");
 		$("#communication").addClass("activeTab");
+	});
+	$(".partner-panel").click(function() {
+		if ($(".ppicon i:last-child").hasClass("fa-sort-down")) {
+			$(".ppicon i:last-child").removeClass("fa-sort-down");
+			$(".ppicon i:last-child").addClass("fa-sort-up");
+			$(".partner-panel-content").css("height","auto");
+		} else {
+			$(".ppicon i:last-child").removeClass("fa-sort-up");
+			$(".ppicon i:last-child").addClass("fa-sort-down");
+			$(".partner-panel-content").css("height","0px");
+		}
 	});
 });
 </script>
