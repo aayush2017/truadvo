@@ -169,7 +169,14 @@ nav { margin-left: 2%; width: 40%;margin-top: 10px;}
 }
 .parTaskBtn img { width: 19px; margin-top: 5px;display: block;margin-left: 20px;}
 .parTaskBtn span { margin-top: -18px;display: block;margin-left: 15px;}
-.parTaskBtn i { width: 19px; margin-top: 5px;display: block;margin-left: 20px; }
+.parTaskBtn i { 
+	width: 19px; 
+	margin-top: 5px;
+	display: block;
+	margin-left: 20px; 
+	position: relative;
+	left: -10%; 
+}
 .active {
 	background-color: #f5ff8a;
 }
