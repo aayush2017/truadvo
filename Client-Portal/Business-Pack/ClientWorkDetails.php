@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Client Query Work - Truadvo</title>
+	<title>Client Work Details - Truadvo</title>
 	<?php require_once('include/header.php'); ?>
 </head>
 <body>
@@ -29,7 +29,7 @@
 					<div class="table-body-cell">3/6</div>
 					<div class="table-body-cell">12-10-2019</div>
 					<div class="table-body-cell">Pending</div>
-					<div class="table-body-cell"><button class="btn-cq">More Details <i class="fas fa-sort-up"></i></button></div>
+					<div class="table-body-cell"><button class="btn-cq" id="1">More Details <i class="fas fa-sort-up"></i></button></div>
 				</div>
 				<div class="resp-table-row">
 					<div class="table-body-cell">2</div>
@@ -39,11 +39,11 @@
 					<div class="table-body-cell">1/4</div>
 					<div class="table-body-cell">12-10-2019</div>
 					<div class="table-body-cell">Done</div>
-					<div class="table-body-cell"><button class="btn-cq">More Details <i class="fas fa-sort-down"></i></button></div>
+					<div class="table-body-cell"><button class="btn-cq" id="2">More Details <i class="fas fa-sort-down"></i></button></div>
 				</div>
 				<div class="resp-table-row">
 					<div class="table-body-cell colspanAll">
-						<div style="position: relative;">
+						<div style="position: relative;" class="cqtable1" id="n2">
 							<div class="partner-client-details-tab">
 								<div class="pcd-tab-button">
 									<button class="activeBtn" data-btnName="details">Details</button>
@@ -455,15 +455,80 @@
 <?php require_once('include/footer.php'); ?>
 <script>
 $(document).ready(function() {
-	$(".btn-cq").click(function() {
-		if ($(".btn-cq i").hasClass("fas fa-sort-up")) {
-			$(".btn-cq i").removeClass("fas fa-sort-up");	
-			$(".btn-cq i").addClass("fas fa-sort-down");	
-			$(".cqtable").css("display", "table");	
+	// $(".btn-cq").click(function() {
+	// 	if ($(".btn-cq i").hasClass("fas fa-sort-up")) {
+	// 		$(".btn-cq i").removeClass("fas fa-sort-up");	
+	// 		$(".btn-cq i").addClass("fas fa-sort-down");	
+	// 		$(".cqtable1").css("display", "block");	
+	// 	} else {		
+	// 		$(".btn-cq i").removeClass("fas fa-sort-down");	
+	// 		$(".btn-cq i").addClass("fas fa-sort-up");
+	// 		$(".cqtable1").css("display", "none");	
+	// 	}
+	// });
+	$(".btn-cq").on('click', function(event){
+			var ID = this.id;
+			// alert(".cqtable1 .n"+ ID);
+			if ($("#" + ID +" i").hasClass("fas fa-sort-up")) {
+			$("#" + ID +" i").removeClass("fas fa-sort-up");	
+			$("#" + ID +" i").addClass("fas fa-sort-down");	
+			$("#n"+ ID).css("display", "block");	
 		} else {		
-			$(".btn-cq i").removeClass("fas fa-sort-down");	
-			$(".btn-cq i").addClass("fas fa-sort-up");
-			$(".cqtable").css("display", "none");	
+			$("#" + ID +" i").removeClass("fas fa-sort-down");	
+			$("#" + ID +" i").addClass("fas fa-sort-up");
+			$("#n"+ ID).css("display", "none");	
+		}
+	});
+	$(".folderView").click(function() {
+		$(".partner-client-details").css("display", "block");
+	});
+	$("#close").click(function() {
+		$(".partner-client-details").css("display", "none");
+	});
+	$(".pcd-tab-button button:nth-child(1)").click(function() {
+		$(".pcd-tab-button button").removeClass("activeBtn");
+		$(".details-content").removeClass("activeTab");
+
+		$(".pcd-tab-button button:nth-child(1)").addClass("activeBtn");
+		$("#details").addClass("activeTab");
+	});
+	$(".pcd-tab-button button:nth-child(2)").click(function() {
+		$(".pcd-tab-button button").removeClass("activeBtn");
+		$(".details-content").removeClass("activeTab");
+
+		$(".pcd-tab-button button:nth-child(2)").addClass("activeBtn");
+		$("#work").addClass("activeTab");
+	});
+	$(".pcd-tab-button button:nth-child(3)").click(function() {
+		$(".pcd-tab-button button").removeClass("activeBtn");
+		$(".details-content").removeClass("activeTab");
+
+		$(".pcd-tab-button button:nth-child(3)").addClass("activeBtn");
+		$("#payment").addClass("activeTab");
+	});
+	$(".pcd-tab-button button:nth-child(4)").click(function() {
+		$(".pcd-tab-button button").removeClass("activeBtn");
+		$(".details-content").removeClass("activeTab");
+
+		$(".pcd-tab-button button:nth-child(4)").addClass("activeBtn");
+		$("#all-docs").addClass("activeTab");
+	});
+	$(".pcd-tab-button button:nth-child(5)").click(function() {
+		$(".pcd-tab-button button").removeClass("activeBtn");
+		$(".details-content").removeClass("activeTab");
+
+		$(".pcd-tab-button button:nth-child(5)").addClass("activeBtn");
+		$("#communication").addClass("activeTab");
+	});
+	$(".partner-panel").click(function() {
+		if ($(".ppicon i:last-child").hasClass("fa-sort-down")) {
+			$(".ppicon i:last-child").removeClass("fa-sort-down");
+			$(".ppicon i:last-child").addClass("fa-sort-up");
+			$(".partner-panel-content").css("height","auto");
+		} else {
+			$(".ppicon i:last-child").removeClass("fa-sort-up");
+			$(".ppicon i:last-child").addClass("fa-sort-down");
+			$(".partner-panel-content").css("height","0px");
 		}
 	});
 });

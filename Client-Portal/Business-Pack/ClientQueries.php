@@ -33,7 +33,7 @@
 					<td>Closed</td>
 					<td>12-05-2019</td>
 					<td>7</td>
-					<td><button class="btn-cq">Check Replies <i class="fas fa-sort-up"></i></button></td>
+					<td><button class="btn-cq" id="1">Check Replies <i class="fas fa-sort-up"></i></button></td>
 				</tr>
 				<tr>
 					<td>2</td>
@@ -42,12 +42,12 @@
 					<td>Open</td>
 					<td>12-05-2019</td>
 					<td>2</td>
-					<td><button class="btn-cq">Check Replies <i class="fas fa-sort-down"></i></button></td>
+					<td><button class="btn-cq" id="2">Check Replies <i class="fas fa-sort-down"></i></button></td>
 				</tr>
 				<tr style="border-top: none;">
 					<td>&nbsp;</td>
 					<td colspan="7">
-						<table class="cqtable">
+						<table class="cqtable" id="n2">
 							<thead>
 								<!-- <th>&nbsp;</th> -->
 								<th>Profile</th>
@@ -87,14 +87,16 @@
 <script>
 $(document).ready(function() {
 	$(".btn-cq").click(function() {
-		if ($(".btn-cq i").hasClass("fas fa-sort-up")) {
-			$(".btn-cq i").removeClass("fas fa-sort-up");	
-			$(".btn-cq i").addClass("fas fa-sort-down");	
-			$(".cqtable").css("display", "table");	
+		var ID = this.id;
+			// alert(".cqtable1 .n"+ ID);
+			if ($("#" + ID +" i").hasClass("fas fa-sort-up")) {
+			$("#" + ID +" i").removeClass("fas fa-sort-up");	
+			$("#" + ID +" i").addClass("fas fa-sort-down");	
+			$("#n"+ ID).css("display", "table");	
 		} else {		
-			$(".btn-cq i").removeClass("fas fa-sort-down");	
-			$(".btn-cq i").addClass("fas fa-sort-up");
-			$(".cqtable").css("display", "none");	
+			$("#" + ID +" i").removeClass("fas fa-sort-down");	
+			$("#" + ID +" i").addClass("fas fa-sort-up");
+			$("#n"+ ID).css("display", "none");	
 		}
 	});
 });
