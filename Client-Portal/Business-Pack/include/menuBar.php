@@ -4,9 +4,9 @@
 		<nav class="flt-left">
 			<a href="ClientWorkDetails.php" <?php if(basename($_SERVER["PHP_SELF"])=="ClientWorkDetails.php") { echo 'class="active"';} ?> >Work</a>
 			<a href="ClientQueries.php" <?php if(basename($_SERVER["PHP_SELF"])=="ClientQueries.php") { echo 'class="active"';} ?> >Queries</a>
-			<a href="PartnerClient.php" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerClient.php") { echo 'class="active"';} ?> >Business</a>
-			<a href="PartnerQuery.php" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerQuery.php" || basename($_SERVER["PHP_SELF"])=="PartnerQueryAnswered.php"|| basename($_SERVER["PHP_SELF"])=="PartnerQueryOpenForm.php") { echo 'class="active"';} ?> >Professional</a>
-			<a href="PartnerTeam.php" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerTeam.php" || basename($_SERVER["PHP_SELF"])=="PartnerTeam.php"|| basename($_SERVER["PHP_SELF"])=="PartnerTeam.php") { echo 'class="active"';} ?> >Team</a>
+			<a href="#" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerClient.php") { echo 'class="active"';} ?> >Business</a>
+			<a href="#" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerQuery.php" || basename($_SERVER["PHP_SELF"])=="#"|| basename($_SERVER["PHP_SELF"])=="PartnerQueryOpenForm.php") { echo 'class="active"';} ?> >Professional</a>
+			<a href="#" <?php if(basename($_SERVER["PHP_SELF"])=="PartnerTeam.php" || basename($_SERVER["PHP_SELF"])=="PartnerTeam.php"|| basename($_SERVER["PHP_SELF"])=="PartnerTeam.php") { echo 'class="active"';} ?> >Team</a>
 		</nav>
 		<div class="notAlertLog flt-right">
 			<div class="flt-left noticon">

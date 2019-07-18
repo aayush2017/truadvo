@@ -1,9 +1,9 @@
-#contact-icon {
+/*#contact-icon {
 	padding: 1%;
 	height: 50px;
 	width: 100%;
 	clear: both;
-}
+}*/
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 993px) and (max-width : 1024px) {
 	#contact-icon { background-color: #0096 !important; }

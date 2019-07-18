@@ -25,7 +25,7 @@ div {
 	<h1>Project Status</h1>
 	<h2>Partner</h2>
 	<h3><a href="Client-Portal\Starter-Pack\ClientQueriesInvoices.php">Click here To view Client Portal-->StartPack</a></h3>
-	<h3><a href="Client-Portal\Business-Pack\ClientQueries.php">Click here To view Client Portal-->Business-Pack - InProgress</a></h3>
+	<h3><a href="Client-Portal\Business-Pack\ClientQueries.php">Click here To view Client Portal-->Business-Pack</a></h3>
 	<h3><a href="Partner-Portal\PartnerDashboard.php">Click here To view Dashboard</a></h3>
 	<h3><a href="pricingPlan.php">Click here To view Pricing Plan</a></h3>
 </div>

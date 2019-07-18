@@ -8,9 +8,9 @@
 <?php require_once('include/menuBar.php'); ?>
 <br/><br/>
 <div class="mltr">
-	<button class="parTaskBtn active" onclick="window.location= 'ClientQueriesWork.php';"><span>Raised Query</span></button>
+	<button class="parTaskBtn active" onclick="window.location= '';"><span>Raised Query</span></button>
 	&nbsp;&nbsp;&nbsp;&nbsp;
-	<button class="parTaskBtn" onclick="window.location= 'ClientQueriesInvoices.php';"><span>Raise a Query</span></button>
+	<button class="parTaskBtn" onclick="window.location= '';"><span>Raise a Query</span></button>
 	&nbsp;&nbsp;&nbsp;&nbsp;
 </div>
 <br/><br/>
