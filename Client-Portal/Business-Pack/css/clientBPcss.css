@@ -108,14 +108,15 @@ body {
 	margin-right: 10px;
 }
 .logo img { width: 125px; cursor: pointer; }
-.notAlertLog { width: 30%; }
-.userPic {width: 50%;margin-top: 4px;}
+.notAlertLog { width: 26%; margin-right: -4%;}
+.userPic {width: 70%;margin-top: 4px;}
 .noticon {
 	margin-top: 5px;
 	margin-right: 5%;
-	width: 45%;
+	width: 25%;
 	font-family: "qs-medium";
 	font-size: 14px;
+	margin-left: 0%;
 }
 .noticon i, .icon-shape {
 	width: 30px;
@@ -1064,4 +1065,98 @@ nav { margin-left: 2%; width: 40%;margin-top: 10px;}
 	top: 2px;
 	font-size: 1.7em;
 	transition: all .3s;
+}
+.resp-table {
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+}
+
+.resp-table-header{
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+}
+.table-header-cell{
+	float: left;
+	width: 13%;
+	position: relative;
+	padding: 1%;
+	text-align: left;
+	font-family: qs-bold;
+	font-family: 16px;
+}
+.resp-table-body{
+	clear: both;
+	overflow: hidden;
+}
+.resp-table-row{
+	overflow: hidden;
+	clear: both;
+	background-color: #f6f6f6;
+	border-bottom: 2px solid #fff;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.table-body-cell{
+	width: 10%;
+	float: left;
+	text-align: left;
+	font-family: qs-regular;
+	font-size: 14px;
+}
+.colspanAll {
+	width: 100% !important;
+	text-align: left !important;
+}
+.table-header-cell i {
+
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+.table-header-cell:nth-child(1) {
+	width: 6%;
+}
+.table-header-cell:nth-child(2) {
+	width: 12%;
+	margin-left: 2%;
+}
+.table-header-cell:nth-child(4) {
+	width: 10%;
+}
+.table-header-cell:nth-child(5) {
+	width: 10%;
+}
+.table-header-cell:nth-child(6) {
+	width: 16%;
+}
+.table-header-cell:nth-child(7) {
+	width: 10%;
+}
+
+.table-body-cell:nth-child(1) {
+	width: 5%;
+	text-align: center;
+}
+.table-body-cell:nth-child(2) {
+	margin-left: 4%;
+}
+.table-body-cell:nth-child(3) {
+	margin-left: 2%;
+}
+.table-body-cell:nth-child(4) {
+	margin-left: 3%;
+}
+.table-body-cell:nth-child(5) {
+	margin-left: 0%;
+	width: 10%;
+}
+.table-body-cell:nth-child(7) {
+	margin-left: 6%;
+}
+.table-body-cell .partner-client-details-tab {
+	width: 96%; 
+	margin-top: 0%; 
+	margin-left: 2%;
 }

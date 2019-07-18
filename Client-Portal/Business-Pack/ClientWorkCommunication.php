@@ -42,7 +42,7 @@
 					<td>Open</td>
 					<td>12-05-2019</td>
 					<td>2</td>
-					<td><button class="btn-cq">Check Replies <i class="fas fa-sort-down"></i></button></td>
+					<td><button class="btn-cq">Check Replies <i class="fas fa-sort-up"></i></button></td>
 				</tr>
 				<tr style="border-top: none;">
 					<td>&nbsp;</td>
@@ -64,7 +64,7 @@
 									<td>18-05-2018</td>
 									<td>A P Akbar</td>
 									<td>Reply</td>
-									<td><i class="fas fa-rupee-sign"></i> 2,000</td>
+									<td><i class="fas fa-ruppes"></i> 2,000</td>
 								</tr>
 								<tr>
 									<!-- <td>&nbsp;</td> -->
@@ -72,7 +72,7 @@
 									<td>18-05-2018</td>
 									<td>A P Akbar</td>
 									<td>Reply</td>
-									<td><i class="fas fa-rupee-sign"></i> 10,200</td>
+									<td><i class="fas fa-ruppes"></i> 10,200</td>
 								</tr>
 							</tbody>
 						</table>
